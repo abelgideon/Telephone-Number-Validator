@@ -1,0 +1,103 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f8f2ff;
+}
+
+h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 2rem;
+}
+
+input {
+  margin-bottom: 1.3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#check-btn {
+  margin-bottom: 0.3rem;
+}
+
+#clear-btn {
+  margin-bottom: 2.5rem;
+}
+
+button {
+  height: 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  background-color: #1e0ab0;
+  border: none;
+  color: #fff;
+}
+
+.green-background {
+  background-color: rgb(0, 200, 0);
+  color: rgb(0, 105, 0);
+  font-weight: bold;
+}
+
+.red-background {
+  background-color: rgb(200, 0, 0);
+  color: rgb(105, 0, 0);
+  font-weight: bold;
+}
+
+#results-div {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #result-div {
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  button {
+    height: 4rem;
+    font-size: 2.2rem;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  input {
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 3.3rem;
+  }
+}
